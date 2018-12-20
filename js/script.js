@@ -37,15 +37,15 @@ Object.entries(data).forEach((week) => {
     .addClass("irtitle")
     .html(`<a href="${week[1].ir.link}" target="_blank">${week[1].ir.title}</a>`);
 
-  const irtext = $("<div></div>")
-    .addClass("irtext")
-    .text(week[1].ir.text);
+  const irimg = $("<img></img>")
+    .addClass("irimg")
+    .attr("src", week[1].ir.img);
 
   const irdiv = $("<div></div>")
     .addClass("irdiv")
     .attr("id", `ir${week[0]}`);
 
-  $(irdiv).append(irtitle, irtext);
+  $(irdiv).append(irtitle, irimg);
 
   // google záznam
   const googletitle = $("<h3></h3>")

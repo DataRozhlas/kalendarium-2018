@@ -5,9 +5,9 @@ const data = {
       text: "ČT vysílala něco o Marii Terezii.",
     },
     ir: {
-      title: "Chov mrkví",
-      link: "http://irozhlas.cz",
-      text: "Chovaly se mrkve. To se nejvíc četlo.",
+      title: "Armáda si převzala dva z pandurů, které se v roce 2016 srazily s fabií. Zbylé ještě opravují",
+      link: "https://www.irozhlas.cz/zpravy-domov/pandur-tabor-armada-cr-oprava-dopravni-nehoda_1812201350_pj",
+      img: "https://www.irozhlas.cz/sites/default/files/styles/zpravy_otvirak_velky/public/uploader/img_0758_180908-161502_pj.jpg?itok=kneJFZrO",
     },
     google: {
       title: "Prezidentské volby",
@@ -20,9 +20,9 @@ const data = {
       text: "Máme tu cosi dalšího.",
     },
     ir: {
-      title: "Pěstování žvýkaček",
-      link: "http://irozhlas.cz",
-      text: "Tentokrát se pro změnu nejvíc četlo toto.",
+      title: "Lichtenštejnové podali žaloby k 26 českým soudům. Chtěji majetek zabavený podle Benešových dekretů",
+      link: "https://www.irozhlas.cz/zpravy-domov/lichtenstejn-zaloba-majetek-vraceni_1812201502_och",
+      img: "https://www.irozhlas.cz/sites/default/files/styles/zpravy_otvirak_velky/public/uploader/grenze_liechtenstein_170802-152050_per.jpg?itok=Udb8KgXa",
     },
     google: {
       title: "Prezidentské volby",

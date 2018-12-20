@@ -10,9 +10,21 @@
 @media only screen and (min-width: 600px) {		
 	.wikidiv, .googlediv, .irdiv {
 		width: 33%;
+		padding: 0 10px;
 	}
 }
 
 .weektitle, .wikititle, .googletitle, .irtitle {
 	text-align: center;
+}
+
+.wikititle, .googletitle, .irtitle {
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.irimg {
+	width: 100%;
 }
