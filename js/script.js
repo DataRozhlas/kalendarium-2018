@@ -15,24 +15,25 @@ Object.entries(data).forEach((week) => {
     .attr("id", week[0]);
 
   // wiki záznam
-  const wikilink = `http://cs.wikipedia.org/wiki/${week[1].wiki.title.replace(" ", "_")}`;
-
-  const wikititle = $("<h3></h3>")
-    .addClass("wikititle")
-    .html(`<a href="${wikilink}" target="_blank">${week[1].wiki.title}</a>`);
-
-  const wikitext = $("<div></div>")
-    .addClass("wikitext")
-    .text(week[1].wiki.text);
-
   const wikidiv = $("<div></div>")
     .addClass("wikidiv")
     .attr("id", `wiki${week[0]}`);
 
-  $(wikidiv).append(wikititle, wikitext);
+  if (week[1].wiki) {
+    const wikilink = `http://cs.wikipedia.org/wiki/${week[1].wiki.title.replace(" ", "_")}`;
+
+    const wikititle = $("<h3></h3>")
+      .addClass("wikititle")
+      .html(`<a href="${wikilink}" target="_blank">${week[1].wiki.title}</a>`);
+
+    const wikitext = $("<div></div>")
+      .addClass("wikitext")
+      .text(week[1].wiki.text);
+    
+    $(wikidiv).append(wikititle, wikitext);
+  }
 
   // irozhlas záznam
-  // google záznam
   const irtitle = $("<h3></h3>")
     .addClass("irtitle")
     .html(`<a href="${week[1].ir.link}" target="_blank">${week[1].ir.title}</a>`);
@@ -48,19 +49,21 @@ Object.entries(data).forEach((week) => {
   $(irdiv).append(irtitle, irimg);
 
   // google záznam
-  const googletitle = $("<h3></h3>")
-    .addClass("googletitle")
-    .text(week[1].google.title);
-
-  const googleterm = $("<div></div>")
-    .addClass("googleterm")
-    .html(`Nejhledanějším termínem bylo <i>${week[1].google.term}</i>.`);
-
   const googlediv = $("<div></div>")
     .addClass("googlediv")
     .attr("id", `google${week[0]}`);
 
-  $(googlediv).append(googletitle, googleterm);
+  if (week[1].google) {
+    const googletitle = $("<h3></h3>")
+      .addClass("googletitle")
+      .text(week[1].google.title);
+
+    const googleterm = $("<div></div>")
+      .addClass("googleterm")
+      .html(`Nejhledanějším termínem bylo <i>${week[1].google.term}</i>.`);
+
+    $(googlediv).append(googletitle, googleterm);
+  }
 
   // kompletace
   $(weekdiv).append(wikidiv, irdiv, googlediv);
