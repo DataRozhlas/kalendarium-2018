@@ -1,1 +1,18 @@
-/* styly ve složce styles/ se zakompliují automaticky */
+.weekdiv {
+	display: flex;
+	width: 100%;
+	max-width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 600px) {		
+	.wikidiv, .googlediv, .irdiv {
+		width: 33%;
+	}
+}
+
+.wikititle, .googletitle, .irtitle {
+	text-align: center;
+}
