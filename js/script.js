@@ -2,6 +2,13 @@ import "./targetblank"; // pro otvírání odkazů v novém okně
 import $ from "jquery";
 import data from "./data";
 
+function getDateOfWeek(w) {
+  const d = (1 + (w - 1) * 7); // 1st of January + 7 days for each week
+  const monDate = new Date(2018, 0, d);
+  const sunDate = new Date(2018, 0, d + 6);
+  return [monDate.getMonth() + 1, monDate.getDate(), sunDate.getMonth() + 1, sunDate.getDate()];
+}
+
 Object.entries(data).forEach((week) => {
   const weekdiv = $("<div></div>")
     .addClass("weekdiv")
@@ -10,7 +17,7 @@ Object.entries(data).forEach((week) => {
   // wiki záznam
   const wikilink = `http://cs.wikipedia.org/wiki/${week[1].wiki.title.replace(" ", "_")}`;
 
-  const wikititle = $("<h2></h2>")
+  const wikititle = $("<h3></h3>")
     .addClass("wikititle")
     .html(`<a href="${wikilink}" target="_blank">${week[1].wiki.title}</a>`);
 
@@ -26,7 +33,7 @@ Object.entries(data).forEach((week) => {
 
   // irozhlas záznam
   // google záznam
-  const irtitle = $("<h2></h2>")
+  const irtitle = $("<h3></h3>")
     .addClass("irtitle")
     .html(`<a href="${week[1].ir.link}" target="_blank">${week[1].ir.title}</a>`);
 
@@ -41,7 +48,7 @@ Object.entries(data).forEach((week) => {
   $(irdiv).append(irtitle, irtext);
 
   // google záznam
-  const googletitle = $("<h2></h2>")
+  const googletitle = $("<h3></h3>")
     .addClass("googletitle")
     .text(week[1].google.title);
 
@@ -57,5 +64,20 @@ Object.entries(data).forEach((week) => {
 
   // kompletace
   $(weekdiv).append(wikidiv, irdiv, googlediv);
-  $("#kalendarium").append(weekdiv);
+
+  const weekNumber = week[0].replace("week", "");
+  const dates = getDateOfWeek(weekNumber);
+  let dateText;
+  if (dates[0] === dates[2]) {
+    dateText = `${dates[1]}. - ${dates[3]}. ${dates[0]}.`;
+  } else {
+    dateText = `${dates[1]}. ${dates[0]}. - ${dates[3]}. ${dates[2]}.`;
+  }
+
+  const weektitle = $("<h2></h2>")
+    .addClass("weektitle")
+    .text(`${weekNumber}. týden (${dateText})`);
+
+
+  $("#kalendarium").append(weektitle, weekdiv);
 });
