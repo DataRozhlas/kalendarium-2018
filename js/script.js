@@ -29,14 +29,14 @@ Object.entries(data).forEach((week) => {
     const wikitext = $("<div></div>")
       .addClass("wikitext")
       .text(week[1].wiki.text);
-    
+
     $(wikidiv).append(wikititle, wikitext);
   }
 
   // irozhlas záznam
   const irtitle = $("<h3></h3>")
     .addClass("irtitle")
-    .html(`<a href="${week[1].ir.link}" target="_blank">${week[1].ir.title}</a>`);
+    .html(`<a href="${week[1].ir.url}" target="_blank">${week[1].ir.title}</a>`);
 
   const irimg = $("<img></img>")
     .addClass("irimg")

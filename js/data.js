@@ -215,7 +215,7 @@ const data = {
     ir: {
       url: "https://www.irozhlas.cz/veda-technologie/vesmir/zatmeni-mesice-2018-zive-ted-video-online-hvezdarna-pozorovani-mesic-mars-hvezdy_1807271950_haf",
       title: "Měsíc vstoupil do zemského stínu, šlo o nejdelší zatmění v tomto století. Na řadě míst ale bylo zataženo",
-      img: "https://www.irozhlas.cz/sites/default/files/styles/zpravy_facebook/public?itok=CXKPZgA1",
+      img: "https://www.irozhlas.cz/sites/default/files/styles/zpravy_facebook/public/uploader/p201807270933001_180727-221148_haf.jpeg?itok=pphchEWs",
     },
   },
   week30: {
@@ -263,7 +263,7 @@ const data = {
   week36: {
     ir: {
       url: "https://www.irozhlas.cz/sport/lezeni-sport-adam-ondra-senzory-motion-capture-senzorova-zurnalistika_1809101050_jab",
-      title: "Adam Ondraověšený senzory.Co z něj dělánejlepšího lezce světa?",
+      title: "Adam Ondra ověšený senzory. Co z něj dělá nejlepšího lezce světa?",
       img: "https://www.irozhlas.cz/sites/default/files/styles/zpravy_facebook/public/uploader/adam2_180909-150545_jab.jpg?itok=u06wCymb",
     },
   },
