@@ -9,6 +9,37 @@ function getDateOfWeek(w) {
   return [monDate.getMonth() + 1, monDate.getDate(), sunDate.getMonth() + 1, sunDate.getDate()];
 }
 
+function getMonthName(m) {
+  switch (m) {
+    case 1:
+      return "ledna";
+    case 2:
+      return "února";
+    case 3:
+      return "března";
+    case 4:
+      return "dubna";
+    case 5:
+      return "května";
+    case 6:
+      return "června";
+    case 7:
+      return "července";
+    case 8:
+      return "srpna";
+    case 9:
+      return "září";
+    case 10:
+      return "října";
+    case 11:
+      return "listopadu";
+    case 12:
+      return "prosince";
+    default:
+      return m;
+  }
+}
+
 Object.entries(data).forEach((week) => {
   const weekdiv = $("<div></div>")
     .addClass("weekdiv")
@@ -38,15 +69,20 @@ Object.entries(data).forEach((week) => {
     .addClass("irtitle")
     .html(`<a href="${week[1].ir.url}" target="_blank">${week[1].ir.title}</a>`);
 
+  const irimglink = $("<a></a>")
+    .attr("href", week[1].ir.url);
+
   const irimg = $("<img></img>")
     .addClass("irimg")
     .attr("src", week[1].ir.img);
+
+  $(irimglink).append(irimg);
 
   const irdiv = $("<div></div>")
     .addClass("irdiv")
     .attr("id", `ir${week[0]}`);
 
-  $(irdiv).append(irtitle, irimg);
+  $(irdiv).append(irtitle, irimglink);
 
   // google záznam
   const googlediv = $("<div></div>")
@@ -70,11 +106,12 @@ Object.entries(data).forEach((week) => {
 
   const weekNumber = week[0].replace("week", "");
   const dates = getDateOfWeek(weekNumber);
+
   let dateText;
   if (dates[0] === dates[2]) {
-    dateText = `${dates[1]}. - ${dates[3]}. ${dates[0]}.`;
+    dateText = `${dates[1]}. - ${dates[3]}. ${getMonthName(dates[0])}`;
   } else {
-    dateText = `${dates[1]}. ${dates[0]}. - ${dates[3]}. ${dates[2]}.`;
+    dateText = `${dates[1]}. ${getMonthName(dates[0])} - ${dates[3]}. ${getMonthName(dates[2])}`;
   }
 
   const weektitle = $("<h2></h2>")
