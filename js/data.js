@@ -28,7 +28,7 @@ const data = {
       title: "Prezidentské volby",
       term: "prezidentské volby 2018",
     },
-  },
+  },} /*
   week3: {
     ir: {
       url: "https://www.irozhlas.cz/zpravy-domov/aktivistka-femen-milos-zeman-putins-slut-angelina-diash-rozhovor_1801161100_ogo",
@@ -364,5 +364,5 @@ const data = {
       img: "https://www.irozhlas.cz/sites/default/files/styles/zpravy_facebook/public/uploader/nevtipil_saroch_dane_170830-202701_haf.jpg?itok=pQfft_9r",
     },
   },
-};
+}; */
 export default data;
