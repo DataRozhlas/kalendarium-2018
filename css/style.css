@@ -12,19 +12,44 @@
 		width: 33%;
 		padding: 0 10px;
 	}
+
+	.googleheader, .wikiheader, .irheader {
+		margin-top: 0;
+		height: 110px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
 }
 
-.weektitle, .wikititle, .googletitle, .irtitle {
+.weektitle, .googleheader, .wikiheader, .irheader {
 	text-align: center;
 }
 
-.wikititle, .googletitle, .irtitle {
-	height: 100px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+.separator {
+	text-align: center;
+	margin-top: 25px;
 }
 
-.irimg {
+#sepweek1 {
+	display: none;
+}
+
+.googleheader, .wikiheader, .irheader {
+	margin-top: 25px;
+}
+
+.googlelead, .wikilead, .irlead {
+	text-decoration: none;
+	margin-bottom: -2px;
+	font-variant: small-caps;
+	font-size: 0.9rem;
+}
+
+.googletitle, .wikititle, .irtitle {
+	margin-top: 0;
+}
+
+.irimg, .googleimg {
 	width: 100%;
 }
