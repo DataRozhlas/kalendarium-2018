@@ -1,4 +1,5 @@
 import "./targetblank"; // pro otvírání odkazů v novém okně
+import "./objentries"; // polyfill pro Object.entries
 import { h, render } from "preact";
 /** @jsx h */
 import data from "./data";
