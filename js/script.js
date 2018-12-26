@@ -39,6 +39,10 @@ const WikiDiv = ({ week }) => (
         text={week[1].wiki.title}
       />
     </div>
+    <Img
+      classname="wikiimg"
+      src={`data/wiki_graphs/${week[0]}.png`}
+    />
     <Text
       classname="wikitext"
       text={week[1].wiki.text}

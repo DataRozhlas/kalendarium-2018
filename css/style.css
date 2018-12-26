@@ -50,6 +50,10 @@
 	margin-top: 0;
 }
 
-.irimg, .googleimg {
+.irimg, .googleimg, .wikiimg {
 	width: 100%;
+}
+
+.wikitext {
+	padding-top: 10px;
 }
