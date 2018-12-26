@@ -76,7 +76,7 @@ const GoogleDiv = ({ week }) => (
     </div>
     <Img
       classname="googleimg"
-      src={`data/wordclouds/${week[0]}.png`}
+      src={`https://data.irozhlas.cz/kalendarium-2018/data/wordclouds/${week[0]}.png`}
     />
   </div>
 );
