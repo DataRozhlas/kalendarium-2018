@@ -41,7 +41,7 @@ const WikiDiv = ({ week }) => (
     </div>
     <Img
       classname="wikiimg"
-      src={`data/wiki_graphs/${week[0]}.png`}
+      src={`https://data.irozhlas.cz/kalendarium-2018/data/wiki_graphs/${week[0]}.png`}
     />
     <Text
       classname="wikitext"
