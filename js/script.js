@@ -76,7 +76,7 @@ const GoogleDiv = ({ week }) => (
     </div>
     <Img
       classname="googleimg"
-      src={week[1].google.img}
+      src={`data/wordclouds/${week[0]}.png`}
     />
   </div>
 );
