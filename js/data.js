@@ -1,6 +1,6 @@
 const data = {
   week1: {
-    text: "Popisek týdne bude tady.",
+    text: "Mimořádný zájem o biografii císařovny Marie Terezie vyvolal dvoudílný film, který na Nový rok odvysílala Česká televize.",
     wiki: {
       title: "Marie Terezie",
     },
@@ -14,7 +14,7 @@ const data = {
     },
   },
   week2: {
-    text: "A taky tady.",
+    text: "Těsně po prvním kole volby prezidenta byl na české Wikipedii největší zájem o druhého postoupivšího kandidáta Jiřího Drahoše.",
     wiki: {
       title: "Jiří Drahoš",
     },
@@ -28,6 +28,7 @@ const data = {
     },
   },
   week3: {
+    text: "V prvním týdnu mezi oběma prezidentskými volbami byla už na Wikipedii v součtu větší poptávka po informacích o Miloši Zemanovi. Kulminovala o týden později, 27. ledna, kdy byl podruhé zvolen.",
     wiki: {
       title: "Miloš Zeman",
     },
@@ -41,6 +42,7 @@ const data = {
     },
   },
   week4: {
+    text: "V předvečer druhého kola zastínila oba kandidáty moderátorka jejich poslední předvolební debaty Světlana Witowská.",
     wiki: {
       title: "Světlana Witowská",
     },
@@ -54,6 +56,7 @@ const data = {
     },
   },
   week5: {
+    text: "Karel Slezák a Milan Rokytka se „proslavili“ při oslavách ve štábu Miloše Zemana. Bývalý redaktor Haló novin Rokytka tím, že se opil a zkolaboval, Slezák pak odháněl novináře, kteří to chtěli natočit. Karel Slezák o několik dnů později zemřel. Hokejista Petr Nedvěd se ve stejném týdnu rozloučil s kariérou vzpomínkovým utkáním, při kterém dal Jágrovu Kladnu gól a na další přihrál.",
     wiki: {
       title: "Petr Nedvěd",
     },
@@ -67,6 +70,8 @@ const data = {
     },
   },
   week6: {
+    text: "Úspěšný start a víceméně úspěšné přistání raketa Elona Muska zaujalo víc čtenářů než politika.",
+
     wiki: {
       title: "Gay pornografie",
     },
@@ -80,6 +85,7 @@ const data = {
     },
   },
   week7: {
+    text: "Ester Ledecká vyhrála jako první Češka olympijský superobří slalom, o týden později přidala další zlato na snowboardu.",
     wiki: {
       title: "Zimní olympijské hry 2018",
     },
@@ -93,6 +99,7 @@ const data = {
     },
   },
   week8: {
+    text: "Olympijští sportovci z Ruska porazili Českou republiku v semifinále olympijského turnaje 3:0.",
     wiki: {
       title: "Ester Ledecká",
     },
@@ -106,6 +113,7 @@ const data = {
     },
   },
   week9: {
+    text: "Rolling Stones oznámili, že v létě zahrají v Praze. Po vraždě slovenského novináře Jána Kuciaka se začala média zajímat i o asisentku tehdejšího slovenského premiéra. Česká tlevize odvysílala oscarový film Královna Viktorie.",
     wiki: {
       title: "Viktorie (britská královna)",
     },
@@ -119,6 +127,7 @@ const data = {
     },
   },
   week10: {
+    text: "Miloš Zeman se podruhé ujal prezidentského úřadu a uživatelé české Wikipedie se nejvíc zajímali o MDŽ.",
     wiki: {
       title: "Mezinárodní den žen",
     },
@@ -132,6 +141,7 @@ const data = {
     },
   },
   week11: {
+    text: "Čtenáře iROZHLAS.cz nejvíc zajímala reportáž a fotogalerie ze Sýrie a nehoda na lyžařské lanovce v Gruzii. Zemřel fyzik Stephen Hawking.",
     wiki: {
       title: "Stephen Hawking",
     },
@@ -145,6 +155,7 @@ const data = {
     },
   },
   week12: {
+    text: "Při výbuchu v chemičce Unipetrol v Kralupech nad Vltavou zahynulo šest lidí. Premiér v demisi poskytl rozhovor Radiožurnálu. Květnou nedělí 25. března začaly letošní Velikonoce.",
     wiki: {
       title: "Velikonoce",
     },
@@ -158,6 +169,7 @@ const data = {
     },
   },
   week13: {
+    text: "Český olympijský výbor zaujal návrhem na novou podobu české hymny. Sportovci prý při medailových ceremoniálech nestojí na stupních vítězů dost dlouho, protože česká hymna patří k nejkratším.",
     wiki: {
       title: "Velký pátek",
     },
