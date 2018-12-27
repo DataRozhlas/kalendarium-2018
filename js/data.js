@@ -366,6 +366,8 @@ const data = {
     },
   },
   week27: {
+    text: "Rolling Stones zahráli pošesté v Česku. Koncert v pražských Letňanech odstartovali za jásotu desítek tisíc fanoušků písní Street Fighting Man.", 
+
     wiki: {
       title: "The Rolling Stones",
     },
@@ -379,6 +381,8 @@ const data = {
     },
   },
   week28: {
+    text: "Menšinová vláda ANO a ČSSD opřená o KSČM získala důvěru Poslanecké sněmovny 264 dní po volbách. Chorvvatsko se senzačně probojovalo do finále mistrovství světa ve fotbale.", 
+
     wiki: {
       title: "Chorvatsko",
     },
@@ -392,6 +396,7 @@ const data = {
     },
   },
   week29: {
+    text: "Další ministr Petr Krčál (ČSSD) opustil Babišovu vládu kvůli pagiátorství, ve funkci byl tři týdny.",
     wiki: {
       title: "Petr Krčál",
     },
@@ -405,6 +410,8 @@ const data = {
     },
   },
   week30: {
+   text: "Podobně dlouhé zatmění Měsíce nastane znovu až za 105 let.",
+
     wiki: {
       title: "Zatmění Měsíce 27. července 2018",
     },
@@ -418,6 +425,7 @@ const data = {
     },
   },
   week31: {
+    text: "Na jezeře Lhota poblíž Prahy se utopili dva chlapci. Potápěči je našli až po dvou hodinách pátrání.",
     wiki: {
       title: "Tatra T3",
     },
@@ -431,6 +439,7 @@ const data = {
     },
   },
   week32: {
+    text: "Televize vysílala dokument Pelé: Zrození legendy. Klimatologové varovali, že cíl pro maximální nárůst globálních teplot stanovený před třemi lety v Paříži nemusí být dostatečný pro stabilizaci světového klimatu. Podmínky pro pozorování meteorického roje Perseid byly letos ideální.",
     wiki: {
       title: "Pelé",
     },
@@ -444,6 +453,7 @@ const data = {
     },
   },
   week33: {
+    text: "Televize vysílala dramatizaci životního příběhu italské módní návrhářky Donatelly Versace. V Janově se zřítil dálniční most, zahynulo 35 lidí. Zemřel známý český DJ Loutka.",
     wiki: {
       title: "Donatella Versace",
     },
@@ -457,6 +467,7 @@ const data = {
     },
   },
   week34: {
+    text: "Češi a Slováci si připomněli půl století od vpádu „spřátelených“ vojsk. Přes 216 tisíc lidí ze 403 politických stran se přihlásilo jako kandidáti do komunálních voleb.",
     wiki: {
       title: "Invaze vojsk Varšavské smlouvy do Československa",
     },
@@ -470,6 +481,7 @@ const data = {
     },
   },
   week35: {
+    text: "Na železnici začaly platit dumpingové ceny jízdného pro studenty a důchodce. Zemřel herec Jan Kalous, který se nejvíc proslavil coby dětský hlas Kevina z komedií Sám doma.",
     wiki: {
       title: "Jan Kalous (herec)",
     },
@@ -483,6 +495,8 @@ const data = {
     },
   },
   week36: {
+   text: "Německého malíře Oskara Schelmmera připomněl Čechům Google Doodle. Se selvami na železnici je to složitější. Komunální volby se blíží.",
+
     wiki: {
       title: "Oskar Schlemmer",
     },
@@ -496,6 +510,8 @@ const data = {
     },
   },
   week37: {
+   text: "Uplynulo sto let od narození Rosemary Kennedyové, které ambiciozní rodiče zničili život lobotomií. Severní i Jižní Karolínu zasáhla tropická cyklóna Florence. Datoví novináři serveru iROZHLAS.cz ověsili Adama Ondru senzory, aby mohli odpovědět na otázku, proč se stal nejlepším lezcem současnosti.",
+
     wiki: {
       title: "Lobotomie",
     },
@@ -509,6 +525,7 @@ const data = {
     },
   },
   week38: {
+    text: "Nezvykle dlouhé babí léto přimělo lidi googlovat, kdy se zkazí počasí.",
     wiki: {
       title: "Seznam světců a mučedníků katolické církve",
     },
@@ -522,6 +539,7 @@ const data = {
     },
   },
   week39: {
+     text: "„Začal jsem kolem stánku ANO malovat velkými písmeny nápis: ‚Babiš podvádí. Podved‘, dál už jsem psát nemohl, protože mě zastavila městská policie,“ popsal úspěšný český malíř Jan Merta okolnosti svého zatčení v Praze u Anděla.",
     wiki: {
       title: "Svatý Václav",
     },
