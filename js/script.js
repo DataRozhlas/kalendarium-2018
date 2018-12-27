@@ -23,19 +23,6 @@ const Img = ({ classname, src }) => (
   <img className={classname} src={src} alt="" />
 );
 
-/*
-const Text = ({ text, classname }) => (
-  <div className={classname}>
-    {text}
-  </div>
-);
-
-<Text
-      classname="wikitext"
-      text={week[1].wiki.text}
-    />
-*/
-
 const WikiDiv = ({ week }) => (
   <div className="wikidiv" id={`wiki${week[0]}`}>
     <div className="wikiheader">
@@ -97,6 +84,12 @@ const WeekTitle = ({ week }) => {
   );
 };
 
+const WeekText = ({ text }) => (
+  <div className="weektext">
+    {text}
+  </div>
+);
+
 const WeekDiv = ({ week }) => (
   <div className="weekdiv" id={week[0]}>
     <GoogleDiv week={week} />
@@ -111,6 +104,9 @@ const Calendar = () => (
       <div>
         <div className="separator" id={`sep${week[0]}`}>• • •</div>
         <WeekTitle week={week} />
+        <WeekText
+          text={week[1].text ? week[1].text : "chybí"}
+        />
         <WeekDiv week={week} />
       </div>
     ))}

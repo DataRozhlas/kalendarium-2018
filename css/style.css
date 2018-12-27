@@ -54,6 +54,7 @@
 	width: 100%;
 }
 
-.wikitext {
-	padding-top: 10px;
+.weektext {
+	text-align: center;
+	font-style: italic;
 }
