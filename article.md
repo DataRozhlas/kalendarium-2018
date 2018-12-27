@@ -1,4 +1,4 @@
-title: "Kalendárium 2018: Co čtenáři hledali na serveru iROZHLAS.cz? A co na Wikipedii?"
+title: "Kalendárium 2018: Taťána Malá i mamba zelená. Co čtenáři hledali na serveru iROZHLAS.cz? A co na Wikipedii?"
 perex: "Která témata hýbala letos v Česku hýbala veřejným děním? Datoví žurnalisté serveru iROZHLAS.cz připravili roční přehled témat, která na internetu rezonovala nejvíce. Prohlédněte si po jednotlivých týdnech, jaká slova čtenáři hledali na Googlu, co četli na české Wikipedii a které články na iROZHLAS.cz je nejvíce zaujaly."
 published: "27. prosince 2018"
 coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/prag_-_rathausuhr_mo_181226-230054_zlo.jpg?itok=2tuP8Fme

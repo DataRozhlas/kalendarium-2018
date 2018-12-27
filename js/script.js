@@ -23,11 +23,18 @@ const Img = ({ classname, src }) => (
   <img className={classname} src={src} alt="" />
 );
 
+/*
 const Text = ({ text, classname }) => (
   <div className={classname}>
     {text}
   </div>
 );
+
+<Text
+      classname="wikitext"
+      text={week[1].wiki.text}
+    />
+*/
 
 const WikiDiv = ({ week }) => (
   <div className="wikidiv" id={`wiki${week[0]}`}>
@@ -42,10 +49,6 @@ const WikiDiv = ({ week }) => (
     <Img
       classname="wikiimg"
       src={`https://data.irozhlas.cz/kalendarium-2018/data/wiki_graphs/${week[0]}.png`}
-    />
-    <Text
-      classname="wikitext"
-      text={week[1].wiki.text}
     />
   </div>
 );
