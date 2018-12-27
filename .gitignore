@@ -1,3 +1,8 @@
 data/wiki/.ipynb_checkpoints
+<<<<<<< HEAD
 .Rproj.user
 .DS_Store
+=======
+node_modules/
+.eslintrc.js
+>>>>>>> b362f21c3fdb3ac65a4c3afe3eab8a3b0a29e9e2
