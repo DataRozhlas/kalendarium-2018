@@ -183,6 +183,7 @@ const data = {
     },
   },
   week14: {
+    text: "Metallica zahrála v Praze cover verzi Jožina z Bažin a Česká televize odvysílala historický film Cromwell.",
     wiki: {
       title: "Oliver Cromwell",
     },
@@ -196,6 +197,7 @@ const data = {
     },
   },
   week15: {
+    text: "Režisér Miloš Forman zemřel a biatlonistka Gabriela Koukalová ukončila kariéru.",
     wiki: {
       title: "Miloš Forman",
     },
@@ -209,6 +211,7 @@ const data = {
     },
   },
   week16: {
+    text: "Nejen český internet ovládla zpráva o smrti švédského hudebníka.",
     wiki: {
       title: "Avicii",
     },
@@ -222,6 +225,7 @@ const data = {
     },
   },
   week17: {
+    text: "O metanolové aféře z roku 2012 pojednával dvoudílný film, který v dubnu vysílala Česká televize.",
     wiki: {
       title: "Metanolová aféra",
     },
@@ -235,6 +239,7 @@ const data = {
     },
   },
   week18: {
+    text: "Česko zasypal v nezvyklém množství jemný žlutý prášek. Čeští hokejisté letos na mistrovství světa vypadli ve čtvrtfinále proti USA. Sezóna naopak začala návštěvníkům technoparties.",
     wiki: {
       title: "Mistrovství světa v ledním hokeji 2018",
     },
@@ -248,6 +253,7 @@ const data = {
     },
   },
   week19: {
+    text: "Český zpěvák Mikolas Josef bodoval v Eurovizi s písní Lie To Me. A český hokejista s ruskými kořeny Dmitrij Jaškin skóroval v play-off NHL.",
     wiki: {
       title: "Dmitrij Jaškin",
     },
@@ -261,6 +267,7 @@ const data = {
     },
   },
   week20: {
+    text: "Princ Harry se oženil s americkou herečkou Meghan Markle. A výrazný český dezinformátor Jiří Maxon poskytl serveru iROZHLAS.cz rozhovor. ",
     wiki: {
       title: "Meghan Markle",
     },
@@ -274,6 +281,7 @@ const data = {
     },
   },
   week21: {
+    text: "Královna Alžběta oslavila 92. narozeniny. Česká televize natočila skrytou kamerou lékařku z kliniky Aktip, která radila pacientům, aby „vykadili rakovinu“. iROZHLAS.cz s Medianem připravil pro čtenáře test, do jaké sociální bubliny patří.",
     wiki: {
       title: "Alžběta II.",
     },
@@ -287,6 +295,7 @@ const data = {
     },
   },
   week22: {
+    text: "Pokračuje kauza lékařek z kliniky Aktip. Česká televize vysílá dvoudílný film o neštěstí v dole Dukla.",
     wiki: {
       title: "Důl Dukla (Dolní Suchá)",
     },
@@ -300,6 +309,7 @@ const data = {
     },
   },
   week23: {
+    text: "Zájem o Virginii Apgarovou, americkou lékařkou známou především díky Apgar skóre, sloužícímu k rychlému vyhodnocení stavu novorozenců, vzrostl, když jí vyhledávač Google věnoval kampaň Google Doodle.",
     wiki: {
       title: "Virginia Apgarová",
     },
@@ -313,6 +323,7 @@ const data = {
     },
   },
   week24: {
+    text: "Fotbalové mistrovství začalo 14. června zápasem, ve kterém domácí Rusko porazilo Saudskou Arábii 5:0. Koncert Ozzy Osbourna na Letišti Letňany podle recenzentů „trpěl všemi neduhy open air koncertu, ale jinak to byla vydařená záležitost“.",
     wiki: {
       title: "Mistrovství světa ve fotbale 2018",
     },
@@ -326,6 +337,8 @@ const data = {
     },
   },
   week25: {
+    text: "Ethan Gutmann je jedním z vyšetřovatelů, kteří svět konsternovali důkazy o masovém zabíjení čínských vězňů svědomí a násilném odebírání jejich orgánů.",
+
     wiki: {
       title: "Taťána Malá",
     },
@@ -339,6 +352,7 @@ const data = {
     },
   },
   week26: {
+    text: "Taťána Malá (ANO) byla ministryní spravedlnosti dva týdny, pak se ukázalo, že se dopustila plagiátorství v obou svých diplomkách. Pumu, která utekla z nelegální soukromé zoo ve Zvoli u Prahy se nakonec podařilo chytit. Prudký nárůst zájmu o německé filosofa Leibnize na české Wikipedii způsobila kamapaň Google Doodle.", 
     wiki: {
       title: "Gottfried Wilhelm Leibniz",
     },
