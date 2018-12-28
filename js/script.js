@@ -9,12 +9,12 @@ const Title = ({ link, classname, text }) => (
   <h3 className={classname}>
     {(link === "")
       ? text
-      : <a href={link} target="_blank" rel="noopener noreferrer">{text}</a>}
+      : <a href={link}>{text}</a>}
   </h3>
 );
 
 const LinkImg = ({ classname, link, src }) => (
-  <a href={link} target="_blank" rel="noopener noreferrer">
+  <a href={link}>
     <img className={classname} src={src} alt="" />
   </a>
 );
@@ -61,7 +61,7 @@ const IrDiv = ({ week }) => (
 const GoogleDiv = ({ week }) => (
   <div className="googlediv" id={`google${week[0]}`}>
     <div className="googleheader">
-      <h5 className="googlelead">Hledali jste na iROZHLAS.cz</h5>
+      <h5 className="googlelead">Našli jste přes Google</h5>
       <Title
         link=""
         classname="googletitle"
@@ -85,9 +85,8 @@ const WeekTitle = ({ week }) => {
 };
 
 const WeekText = ({ text }) => (
-  <div className="weektext">
-    {text}
-  </div>
+  // eslint-disable-next-line react/no-danger
+  <div className="weektext" dangerouslySetInnerHTML={{ __html: text }} />
 );
 
 const WeekDiv = ({ week }) => (
@@ -105,7 +104,7 @@ const Calendar = () => (
         <div className="separator" id={`sep${week[0]}`}>• • •</div>
         <WeekTitle week={week} />
         <WeekText
-          text={week[1].text ? week[1].text : "chybí"}
+          text={week[1].text}
         />
         <WeekDiv week={week} />
       </div>

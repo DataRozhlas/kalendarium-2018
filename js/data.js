@@ -70,7 +70,7 @@ const data = {
     },
   },
   week6: {
-    text: "Úspěšný start a víceméně úspěšné přistání raketa Elona Muska zaujalo víc čtenářů než politika.",
+    text: "Úspěšný start a víceméně úspěšné přistání raketa Elona Muska zaujalo víc čtenářů než politika. Proč se ve stejné době stala hitem Wikipedie gay pornografie, zůstává záhadou.",
 
     wiki: {
       title: "Gay pornografie",
@@ -113,7 +113,7 @@ const data = {
     },
   },
   week9: {
-    text: "Rolling Stones oznámili, že v létě zahrají v Praze. Po vraždě slovenského novináře Jána Kuciaka se začala média zajímat i o asisentku tehdejšího slovenského premiéra. Česká tlevize odvysílala oscarový film Královna Viktorie.",
+    text: "Rolling Stones oznámili, že v létě zahrají v Praze. Po vraždě slovenského novináře Jána Kuciaka se začala média zajímat i o asisentku tehdejšího slovenského premiéra. Česká televize odvysílala oscarový film Královna Viktorie.",
     wiki: {
       title: "Viktorie (britská královna)",
     },
@@ -127,7 +127,7 @@ const data = {
     },
   },
   week10: {
-    text: "Miloš Zeman se podruhé ujal prezidentského úřadu a uživatelé české Wikipedie se nejvíc zajímali o MDŽ.",
+    text: "Miloš Zeman se podruhé ujal prezidentského úřadu, shodou okolností v mezinárodní den žen.",
     wiki: {
       title: "Mezinárodní den žen",
     },
@@ -141,7 +141,7 @@ const data = {
     },
   },
   week11: {
-    text: "Čtenáře iROZHLAS.cz nejvíc zajímala reportáž a fotogalerie ze Sýrie a nehoda na lyžařské lanovce v Gruzii. Zemřel fyzik Stephen Hawking.",
+    text: "Čtenáře iROZHLAS.cz nejvíc zajímala reportáž a fotogalerie ze Sýrie a nehoda na lyžařské lanovce v Gruzii. V týdnu také zemřel světoznámý fyzik Stephen Hawking.",
     wiki: {
       title: "Stephen Hawking",
     },
@@ -183,7 +183,7 @@ const data = {
     },
   },
   week14: {
-    text: "Metallica zahrála v Praze cover verzi Jožina z Bažin a Česká televize odvysílala historický film Cromwell.",
+    text: "Metallica zahrála v Praze <a href='https://www.youtube.com/watch?v=mq99v7b8DWI'>cover verzi Jožina z Bažin</a> a Česká televize odvysílala historický film Cromwell.",
     wiki: {
       title: "Oliver Cromwell",
     },
@@ -267,7 +267,7 @@ const data = {
     },
   },
   week20: {
-    text: "Princ Harry se oženil s americkou herečkou Meghan Markle. A výrazný český dezinformátor Jiří Maxon poskytl serveru iROZHLAS.cz rozhovor. ",
+    text: "Princ Harry se oženil s americkou herečkou Meghan Markle. Výrazný český dezinformátor Jiří Maxon poskytl serveru iROZHLAS.cz rozhovor.",
     wiki: {
       title: "Meghan Markle",
     },
@@ -281,7 +281,7 @@ const data = {
     },
   },
   week21: {
-    text: "Královna Alžběta oslavila 92. narozeniny. Česká televize natočila skrytou kamerou lékařku z kliniky Aktip, která radila pacientům, aby „vykadili rakovinu“. iROZHLAS.cz s Medianem připravil pro čtenáře test, do jaké sociální bubliny patří.",
+    text: "Královna Alžběta oslavila 92. narozeniny. Česká televize <a href='https://ct24.ceskatelevize.cz/2492023-168-hodin-obchod-se-zdravim'>natočila skrytou kamerou</a> lékařku z kliniky Aktip, která radila pacientům, aby „vykadili rakovinu“. iROZHLAS.cz s Medianem připravil pro čtenáře test, do jaké sociální bubliny patří.",
     wiki: {
       title: "Alžběta II.",
     },
@@ -309,7 +309,7 @@ const data = {
     },
   },
   week23: {
-    text: "Zájem o Virginii Apgarovou, americkou lékařkou známou především díky Apgar skóre, sloužícímu k rychlému vyhodnocení stavu novorozenců, vzrostl, když jí vyhledávač Google věnoval kampaň Google Doodle.",
+    text: "Zájem o Virginii Apgarovou, americkou lékařkou známou především díky <a href='https://cs.wikipedia.org/wiki/Apgar_sk%C3%B3re'>Apgar skóre</a>, systému sloužícímu k rychlému vyhodnocení zdravotního stavu novorozenců, vzrostl, když jí vyhledávač Google <a href='https://www.google.com/doodles/dr-virginia-apgars-109th-birthday'>věnoval logo Google Doodle</a>.",
     wiki: {
       title: "Virginia Apgarová",
     },
@@ -323,7 +323,7 @@ const data = {
     },
   },
   week24: {
-    text: "Fotbalové mistrovství začalo 14. června zápasem, ve kterém domácí Rusko porazilo Saudskou Arábii 5:0. Koncert Ozzy Osbourna na Letišti Letňany podle recenzentů „trpěl všemi neduhy open air koncertu, ale jinak to byla vydařená záležitost“.",
+    text: "Fotbalové mistrovství začalo 14. června zápasem, ve kterém domácí Rusko porazilo Saúdskou Arábii 5:0. Koncert Ozzyho Osbourna na Letišti Letňany podle recenzentů „trpěl všemi neduhy open air koncertu, ale jinak to byla vydařená záležitost“.",
     wiki: {
       title: "Mistrovství světa ve fotbale 2018",
     },
@@ -337,7 +337,7 @@ const data = {
     },
   },
   week25: {
-    text: "Ethan Gutmann je jedním z vyšetřovatelů, kteří svět konsternovali důkazy o masovém zabíjení čínských vězňů svědomí a násilném odebírání jejich orgánů.",
+    text: "Ethan Gutmann je jedním z vyšetřovatelů, kteří svět konsternovali důkazy o masovém zabíjení čínských vězňů svědomí a násilném odebírání jejich orgánů. Českou ministryní spravedlnosti se stala Taťána Malá (ANO).",
 
     wiki: {
       title: "Taťána Malá",
@@ -352,7 +352,7 @@ const data = {
     },
   },
   week26: {
-    text: "Taťána Malá (ANO) byla ministryní spravedlnosti dva týdny, pak se ukázalo, že se dopustila plagiátorství v obou svých diplomkách. Pumu, která utekla z nelegální soukromé zoo ve Zvoli u Prahy se nakonec podařilo chytit. Prudký nárůst zájmu o německé filosofa Leibnize na české Wikipedii způsobila kamapaň Google Doodle.", 
+    text: "Taťána Malá byla ministryní spravedlnosti dva týdny, když se ukázalo, že se dopustila plagiátorství v obou svých diplomkách. Pumu, která utekla z nelegální soukromé zoo ve Zvoli u Prahy, se nakonec podařilo chytit. Prudký nárůst zájmu o německého filosofa Leibnize na české Wikipedii <a href='https://www.google.com/doodles/gottfried-wilhelm-leibnizs-372nd-birthday'>způsobilo logo Google Doodle</a>.",
     wiki: {
       title: "Gottfried Wilhelm Leibniz",
     },
@@ -366,7 +366,7 @@ const data = {
     },
   },
   week27: {
-    text: "Rolling Stones zahráli pošesté v Česku. Koncert v pražských Letňanech odstartovali za jásotu desítek tisíc fanoušků písní Street Fighting Man.", 
+    text: "Rolling Stones zahráli pošesté v Česku. Koncert v pražských Letňanech odstartovali za jásotu desítek tisíc fanoušků písní Street Fighting Man.",
 
     wiki: {
       title: "The Rolling Stones",
@@ -381,7 +381,7 @@ const data = {
     },
   },
   week28: {
-    text: "Menšinová vláda ANO a ČSSD opřená o KSČM získala důvěru Poslanecké sněmovny 264 dní po volbách. Chorvvatsko se senzačně probojovalo do finále mistrovství světa ve fotbale.", 
+    text: "Menšinová vláda ANO a ČSSD opřená o KSČM získala 264 dní po volbách důvěru Poslanecké sněmovny. Chorvatsko se senzačně probojovalo do finále mistrovství světa ve fotbale.",
 
     wiki: {
       title: "Chorvatsko",
@@ -396,7 +396,7 @@ const data = {
     },
   },
   week29: {
-    text: "Další ministr Petr Krčál (ČSSD) opustil Babišovu vládu kvůli pagiátorství, ve funkci byl tři týdny.",
+    text: "Kvůli plagiátorství opustil Babišovu vládu další ministr, Petr Krčál (ČSSD). Ve funkci byl tři týdny. Na Slovensku mezitím <a href='https://www.irozhlas.cz/zpravy-svet/tatry-slovensko-lokalni-zaplavy_1807190954_pj'>škodila voda</a>.",
     wiki: {
       title: "Petr Krčál",
     },
@@ -410,7 +410,7 @@ const data = {
     },
   },
   week30: {
-   text: "Podobně dlouhé zatmění Měsíce nastane znovu až za 105 let.",
+    text: "Podobně dlouhé zatmění Měsíce jako letos nastane znovu až za 105 let.",
 
     wiki: {
       title: "Zatmění Měsíce 27. července 2018",
@@ -449,11 +449,11 @@ const data = {
       img: "https://www.irozhlas.cz/sites/default/files/styles/zpravy_otvirak_velky/public/images/03402101.jpeg?itok=RZ56vCnG",
     },
     google: {
-      title: "Perseidy 2018",
+      title: "Perseidy",
     },
   },
   week33: {
-    text: "Televize vysílala dramatizaci životního příběhu italské módní návrhářky Donatelly Versace. V Janově se zřítil dálniční most, zahynulo 35 lidí. Zemřel známý český DJ Loutka.",
+    text: "Televize vysílala dramatizaci životního příběhu italské módní návrhářky Donatelly Versace. Zemřel známý český DJ Loutka.",
     wiki: {
       title: "Donatella Versace",
     },
@@ -467,7 +467,7 @@ const data = {
     },
   },
   week34: {
-    text: "Češi a Slováci si připomněli půl století od vpádu „spřátelených“ vojsk. Přes 216 tisíc lidí ze 403 politických stran se přihlásilo jako kandidáti do komunálních voleb.",
+    text: "Češi a Slováci si připomněli půlstoletí od vpádu „spřátelených“ vojsk. Přes 216 tisíc lidí ze 403 politických stran se přihlásilo jako kandidáti do komunálních voleb.",
     wiki: {
       title: "Invaze vojsk Varšavské smlouvy do Československa",
     },
@@ -495,7 +495,7 @@ const data = {
     },
   },
   week36: {
-   text: "Německého malíře Oskara Schelmmera připomněl Čechům Google Doodle. Se selvami na železnici je to složitější. Komunální volby se blíží.",
+    text: "Německého malíře <a href='https://www.google.com/doodles/oskar-schlemmers-130th-birthday'>Oskara Schlemmera</a> připomněl Čechům Google Doodle. Se slevami na železnici je to složitější. Komunální volby se blíží.",
 
     wiki: {
       title: "Oskar Schlemmer",
@@ -510,7 +510,7 @@ const data = {
     },
   },
   week37: {
-   text: "Uplynulo sto let od narození Rosemary Kennedyové, které ambiciozní rodiče zničili život lobotomií. Severní i Jižní Karolínu zasáhla tropická cyklóna Florence. Datoví novináři serveru iROZHLAS.cz ověsili Adama Ondru senzory, aby mohli odpovědět na otázku, proč se stal nejlepším lezcem současnosti.",
+    text: "Uplynulo sto let od narození Rosemary Kennedyové, které ambiciozní rodiče zničili život lobotomií. Severní i Jižní Karolínu zasáhla tropická cyklóna Florence. Datoví novináři serveru iROZHLAS.cz ověsili Adama Ondru senzory, aby mohli odpovědět na otázku, proč se stal nejlepším lezcem současnosti.",
 
     wiki: {
       title: "Lobotomie",
@@ -525,7 +525,7 @@ const data = {
     },
   },
   week38: {
-    text: "Nezvykle dlouhé babí léto přimělo lidi googlovat, kdy se zkazí počasí.",
+    text: "Nezvykle dlouhé babí léto přimělo lidi googlovat, kdy se zkazí počasí. Zázračné zvýšení zájmu o seznam světců nelze pozemskými cestami objasnit.",
     wiki: {
       title: "Seznam světců a mučedníků katolické církve",
     },
@@ -539,7 +539,7 @@ const data = {
     },
   },
   week39: {
-     text: "„Začal jsem kolem stánku ANO malovat velkými písmeny nápis: ‚Babiš podvádí. Podved‘, dál už jsem psát nemohl, protože mě zastavila městská policie,“ popsal úspěšný český malíř Jan Merta okolnosti svého zatčení v Praze u Anděla.",
+    text: "„Začal jsem kolem stánku ANO malovat velkými písmeny nápis: ‚Babiš podvádí. Podved‘, dál už jsem psát nemohl, protože mě zastavila městská policie,“ popsal úspěšný český malíř Jan Merta okolnosti svého úspěšného zatčení v Praze u Anděla.",
     wiki: {
       title: "Svatý Václav",
     },
@@ -553,6 +553,7 @@ const data = {
     },
   },
   week40: {
+    text: "Zájem českých uživatelů internetu se rovnoměrně rozložil mezi komunální politiku a <a href='https://www.irozhlas.cz/zpravy-domov/had-mamba-zelena-hlubocepy-praha-policie_1810031015_ako'>osud smrtelně jedovaté mamby zelené.</a>",
     wiki: {
       title: "Mamba zelená",
     },
@@ -566,6 +567,7 @@ const data = {
     },
   },
   week41: {
+    text: "Pozornost si prvorepublikový ministr financí Alois Rašín získal dvoudílným filmem, který o něm odvysílala Česká televize.",
     wiki: {
       title: "Alois Rašín",
     },
@@ -579,6 +581,7 @@ const data = {
     },
   },
   week42: {
+    text: "Diskusi otevřela <a href='https://ct24.ceskatelevize.cz/kultura/2629340-sochu-very-spinarove-kritizuje-zpevaccin-syn-lidem-zase-pripomina-steindlera'>nepříliš věrná socha Věry Špinarové v srdci Ostravy</a>. Vilémovický tis diskusi neotevřel - nelze vyloučit, že překvapivá návštěvnost příslušného článku na Wikipedii je dílem obecního vtipálka.",
     wiki: {
       title: "Vilémovický tis",
     },
@@ -592,6 +595,7 @@ const data = {
     },
   },
   week43: {
+    text: "Sté výročí vzniku samostatného českého státu oslavila Česká národní banka dvacetikorunami, které numismatici považují za ‚naprostou idiotštinu‘. V předvečer svátku si Češi mohli užít <a href='https://www.irozhlas.cz/zpravy-domov/zmena-casu-evropska-unie_1810271646_jak'>jednu z posledních změn času</a>.",
     wiki: {
       title: "Tomáš Garrigue Masaryk",
     },
@@ -605,6 +609,7 @@ const data = {
     },
   },
   week44: {
+    text: "Čtenáře zaujal <a href='https://www.irozhlas.cz/zpravy-domov/robot-matylda-autostop_1810311337_mat'>robot, který stopoval z Jablonce do Pelhřimova</a>, i roboti, kteří jim možná seberou práci.",
     wiki: {
       title: "Halloween",
     },
@@ -618,6 +623,7 @@ const data = {
     },
   },
   week45: {
+    text: "Vlak srazil <a href='https://www.irozhlas.cz/zpravy-domov/vlak-nehoda-prejezd-cernosice-sluchatka-divka-hasici_1811061126_och'>nezletilou dívku</a>. Znovu se otevřela kauza Čapí hnízdo premiéra Andreje Babiše (ANO). Televize vysílala životopisný film Milada.",
     wiki: {
       title: "Milada Horáková",
     },
@@ -631,6 +637,7 @@ const data = {
     },
   },
   week46: {
+    text: "V 95 letech zemřel <a href='https://www.irozhlas.cz/kultura/stan-lee-marvel-komiks-usa-umrti_1811122004_kro'>komiksový tvůrce Stan Lee</a>, spoluautor postav jako Spider-Man nebo Iron Man.",
     wiki: {
       title: "Andrej Babiš",
     },
@@ -644,6 +651,7 @@ const data = {
     },
   },
   week47: {
+    text: "Hitem listopadu se stal film Bohemian Rhapsody, volně natočený podle života zpěváka skupiny Queen Freddieho Mercuryho.",
     wiki: {
       title: "Freddie Mercury",
     },
@@ -653,10 +661,11 @@ const data = {
       img: "https://www.irozhlas.cz/sites/default/files/styles/zpravy_otvirak_velky/public/uploader/xxx_181121-201856_jab.png?itok=CKMizXNL",
     },
     google: {
-      title: "Renata Kalenská",
+      title: "Zprávy z domova",
     },
   },
   week48: {
+    text: "Začíná období adventu, čtenáři se po přečtení <a href='https://www.instagram.com/p/Bq0NFYEnpKI/?hl=cs'>instagramového příspěvku</a> zajímají o osud čtvrté série První republiky, seriálu České televize. Kauza Čapí hnízdo stále žije.",
     wiki: {
       title: "Adventní věnec",
     },
@@ -670,6 +679,7 @@ const data = {
     },
   },
   week49: {
+    text: "Prezident Miloš Zeman používá termín <i>čučkař</i>, jazykovědec Karel Oliva <a href='https://www.irozhlas.cz/zpravy-domov/milos-zeman-cuckari-karel-oliva-bis-vyrocni-zprava-vyznam_1812071659_kno'>jej vysvětluje</a>. Příčína zájmu o amerického popularizátora revolveru není známa.",
     wiki: {
       title: "Samuel Colt",
     },
@@ -683,6 +693,7 @@ const data = {
     },
   },
   week50: {
+    text: "Herec Jiří Dvořák pouhé dva týdny před reprízou pohádky Anděl Páně 2, v níž hraje čerta, <a href='https://ct24.ceskatelevize.cz/kultura/2681270-stardance-vrcholi-finalovym-vecerem-korunuje-uz-devateho-krale-tanecniho-parketu'>zvítězil v deváté řadě soutěže StarDance.</a>",
     wiki: {
       title: "Jiří Dvořák (herec)",
     },
@@ -696,6 +707,7 @@ const data = {
     },
   },
   week51: {
+    text: "S blížícími se Vánocemi stuopal zájem o informace o tradičním českém svátečním pokrmu. Zemřela herečka Jana Štěpánková.",
     wiki: {
       title: "Jana Štěpánková",
     },

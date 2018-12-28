@@ -7,4 +7,5 @@ styles: []
 libraries: [] #jquery, d3, d3v5, d3csv, highcharts, datatables
 options: [wide] #wide, noheader (, nopic)
 ---
+<i>Levý sloupec ukazuje slova, která na iROZHLAS.cz přivedla čtenáře z vyhledávače Google, prostřední pak nejčtenější články zpravodajského serveru. Pravý sloupec zobrazuje nejčtenější články na internetové encyklopedii Wikipedie; pokud byl článek nejčtenější více týdnů po sobě, je v seznamu pouze jednou a v dalších týdnech jej nahrazují další v pořadí. Graf pod odkazem zvýrazňuje den, kdy byla návštěvnost článku nejvyšší - ten ale může být i mimo příslušný týden.</i>
 <div id="kalendarium"></div>
