@@ -70,7 +70,7 @@ const data = {
     },
   },
   week6: {
-    text: "Úspěšný start a víceméně úspěšné přistání raketa Elona Muska zaujalo víc čtenářů než politika. Proč se ve stejné době stala hitem Wikipedie gay pornografie, zůstává záhadou.",
+    text: "Úspěšný start a víceméně úspěšné přistání rakety Elona Muska zaujalo víc čtenářů než politika. Proč se ve stejné době stala hitem Wikipedie gay pornografie, zůstává záhadou.",
 
     wiki: {
       title: "Gay pornografie",
