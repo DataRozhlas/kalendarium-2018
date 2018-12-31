@@ -1,6 +1,3 @@
-install.packages ("tm")
-install.packages ("wordcloud")
-install.packages ("RColorBrewer")
 library(tidyverse)
 
 library(tm)
@@ -11,7 +8,7 @@ library(readxl)
 data <- read_excel("search-po-tydnech.xlsx")
 
 
-for (i in 1:51) {
+for (i in 1:52) {
   vyber <- data[,(i*2-1):(i*2)]
   vyber <- vyber[-1,]
   vyber <- vyber %>% filter(vyber[,1] != "irozhlas")
@@ -44,7 +41,6 @@ pull(vyber, 2)
 
 
 slova <- data[3:32,1]$w1
-
 
 
 png("wordcloud.png", width=1200, height=630)

@@ -717,6 +717,21 @@ const data = {
       img: "https://www.irozhlas.cz/sites/default/files/styles/zpravy_otvirak_velky/public/images/02280161.jpeg?itok=vvu1N_wL",
     },
     google: {
+      title: "Bramborový salát",
+    },
+  },
+  week52: {
+    text: "Ve sváteční týden zabodovaly české pohádky i rozverní důchodci.",
+    wiki: {
+      title: "Tři oříšky pro Popelku",
+    },
+    ir: {
+      url: "www.irozhlas.cz/zivotni-styl/spolecnost/striptyz-jeziskova-vnoucata-karvinsko-orlova-domov-duchodcu-duchodci_1812281414_dok",
+      title: "Ježíškova vnoučata nadělila důchodkyním v Orlové striptéra. Takové Vánoce prý v domově ještě neměli",
+      img: "https://www.irozhlas.cz/sites/default/files/styles/zpravy_otvirak_velky/public/images/ac26c8f53d8fa226b0e3eb2fe06f7a12.jpg?itok=jLb4Kbmt",
+    },
+    google: {
+      title: "Kouzelník Žito",
     },
   },
 };
